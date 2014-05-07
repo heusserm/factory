@@ -1,5 +1,3 @@
-#!/Users/matthewheusser/.rvm/rubies/ruby-2.0.0-p247/bin/ruby
-
 require_relative 'lib/factory_sim.rb'
 
 
