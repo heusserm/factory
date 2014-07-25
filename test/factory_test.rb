@@ -1,7 +1,7 @@
 require_relative '../lib/factory_sim.rb'
 require 'minitest/autorun'
 
-class TestFactory < MiniTest::Test
+class TestFactory < MiniTest::Unit::TestCase
 
  def test_that_one_station_averages_three_point_five
    @config = FactorySim::FactoryConfig.new(1000,1,1,1)
