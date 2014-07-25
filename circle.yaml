@@ -1,0 +1,5 @@
+test:
+  override:
+    - ruby -c factory.rb
+    - ruby -c factory_multi3.rb
+    - ruby test/run_all.rb
