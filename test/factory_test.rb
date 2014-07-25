@@ -16,6 +16,6 @@ class TestFactory < MiniTest::Unit::TestCase
    @fact = FactorySim::FactoryFactory.new(@config)
    @fact.do_rolls
    assert_equal(true, @fact.total>170000 && @fact.total<190000) 
-   assert_equal(18, @fact.average)
+   assert_equal(25, @fact.average)
  end
 end
